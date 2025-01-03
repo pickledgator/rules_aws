@@ -77,3 +77,4 @@ Found 82 buckets
 - Supports at least some of the common AWS services (DynamoDB, S3, KMS, Greengrass, etc.)
 - Other AWS services can be added by adding the appropriate Bazel BUILD files to `third_party/`. Most of the services can be found in the [AWS SDK for C++](https://github.com/aws/aws-sdk-cpp) repository. Specifically, see https://github.com/aws/aws-sdk-cpp/tree/main/generated/src
 - The `example.cpp` file is a simple example of how to use the AWS SDK for C++. It is not meant to be a comprehensive example of all the AWS SDK for C++ features.
+- This should eventually be ported to use bzlmod, but I'm too lazy to figure out how to do that right now.
