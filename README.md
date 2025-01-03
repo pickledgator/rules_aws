@@ -1,6 +1,8 @@
-# AWS C++ API Example
+# Bazel Rules for AWS C++ SDK
 
 This project demonstrates using the AWS SDK for C++ to list S3 buckets, built with Bazel.
+Note that the current version of bazel and the AWS SDK for C++ are somewhat stale at the time of publishing this repo.
+It may take substantial effort to try to upgrade components of the AWS SDK for C++ since dependencies end up being chained to pegged versions.
 
 ## Prerequisites
 
